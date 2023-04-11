@@ -1,0 +1,10 @@
+.experience{
+    background: radial-gradient(70.59% 127.8% at 29.41% 9.51%, #3F4044 0%, #1B1C21 58.33%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.vertical-timeline-element-content{
+    background: #dcdddd;
+    box-shadow: 17px 17px 17px 0px;
+}
+.vertical-timeline-element-date{
+    color: #dcdddd;
+}

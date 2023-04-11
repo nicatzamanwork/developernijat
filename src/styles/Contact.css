@@ -1,0 +1,119 @@
+
+.ContactInfoItem{
+    background: #dcdddd;
+    box-shadow: 3px 3px 3px 0px;
+    
+    font-size: 18px;
+    color: rgb(6, 6, 6);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+
+
+    
+}
+.Contact{
+    background: radial-gradient(70.59% 127.8% at 29.41% 9.51%, #3F4044 0%, #1B1C21 58.33%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.icon{
+    color: rgb(251, 251, 251);
+    background-color: #56575B;
+    padding: 1.0rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.form-group{
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+label{
+    color: white;
+    font-size: 1.8rem;
+}
+ .contactSection__wrapper::after{
+    position: absolute;
+   
+    content: "";
+    width: 2px;
+    height: 35rem;
+    background-color: rgb(167, 162, 162);
+    left: 50%;
+    top: -25%;
+    transform: translate(-50%,50%);
+} 
+.left{
+    width: 90%;
+    max-width: 500px;
+    padding-left: 5%;
+    padding-top: 10%;
+}
+.right{
+    max-width: 500px;
+    width: 100%;
+    padding-top: 10%;
+}
+
+.contactSection__wrapper{
+    display: flex;
+    gap: 8rem;
+    justify-content: center;
+    position: relative;
+}
+.button{
+
+    background: #dcdddd;
+        box-shadow: 3px 3px 3px 0px;
+    color: rgb(9, 9, 9);
+    font-size: 20px;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 1rem 4rem;
+    border-radius: 8px;
+    cursor:pointer;
+}
+input{
+
+    height: 20px;
+}
+textarea{
+    height: 80px;
+}
+input,textarea{
+    color: white;
+    width: 80%;
+    font-size: 2rem;
+    padding: 1.2rem;
+    background-color: #565659;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width:768px){
+    .contactSection__wrapper{
+        flex-direction: column;
+    }
+    .contactSection__wrapper::after{
+        display: none;
+    }
+    .ContactInfoItem{
+        font-size: 15px;
+        background: #dcdddd;
+        box-shadow: 3px 3px 3px 0px;
+    }
+    .left,.right{
+        max-width: 100%;
+        padding-left: 0%;
+    }
+    form{
+        margin-left: 25px;
+    }
+    
+}

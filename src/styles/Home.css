@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+
+.home {
+    width: 100%;
+    align-items: center;
+    font-family: 'Karla', sans-serif;
+    color: #17223d;
+  }
+  
+  .about {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    font-family: 'Karla', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: radial-gradient(70.59% 127.8% at 29.41% 9.51%, #3F4044 0%, #1B1C21 58.33%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    color:#dcdddd;
+  }
+  
+  .about h2 {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    color: #dcdddd;
+    height: 50px;
+  }
+  
+  .about .prompt {
+    width: 40%;
+    font-size: 30px;
+  }
+  .prompt svg {
+    font-size: 60px;
+    margin: 10px;
+    color: #dcdddd;
+  }
+
+  .socialleft{
+
+  border: none;
+  background: #de1919;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.55);
+  border-radius: 150px;
+
+  }
+ 
+  
+  .skills {
+    background: #1B1C21;
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    font-family: 'Karla', sans-serif;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .column-right, .column-left {
+    flex: 1;
+    padding: 10px;
+  }
+  .skills h1,h2,li {
+    color: #dcdddd;
+  }
+  .skills .list {
+    list-style: none;
+    width: 50%;
+  } 
+  .list span {
+    font-size: 20px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .about h2 {
+      font-size: 40px;
+    }
+    .prompt svg {
+      font-size: 50px;
+      margin: 10px;
+      color: #dcdddd;
+    }
+  
+    .about .prompt {
+      margin-top: 10px;
+      font-size: 15px;
+      width: 80%;
+    }
+    .list {
+      padding: 0;
+    }
+  
+    .skills h2 {
+      font-size: 30px;
+    }
+  }
+
+ 
